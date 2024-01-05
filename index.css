@@ -38,10 +38,12 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color:white;
+    font-size: 21px;
 }
 .header a{
     text-decoration: none;
     color:white;
+    font-size: 25px;
 
 }
 
@@ -80,7 +82,7 @@ body{
     font-size: 25px;
     color: white;
     position: absolute;
-    left: 195px;
+    left: 238px;
 }
 .home{
     min-height: 100vh;
@@ -105,20 +107,20 @@ body{
     font-size: 1.3rem;
     outline: none;
     border: none;
-    padding: 7px;
+    padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
-    background: #d3ad7f;
-    border:2px solid rgba(255,255,255,.3);
+    color: white;
+    background-color: transparent;
+    border:2px solid #d3ad7f;
     text-transform: capitalize;
     margin-top: 15px;
-    color: #fff;
     margin-left: 10px;
 }
 .btn:hover{
-    background: #fff6eb;
-    color: #d3ad7f;
+    background-color: #b8672d;
+    color: white;
 }
 
 .abouthead{
@@ -127,6 +129,7 @@ body{
     color: #d3ad7f;
     text-transform: uppercase;
     font-size: 2.5rem;
+    font-family:Verdana;
 }  
 .about .row{
     display: flex;
@@ -384,6 +387,7 @@ body{
     background-color: #6f4e37;
     height: 450px;
     width: 600px;
+    box-shadow: 0 4px 6px #777777cb, 0 4px 6px #faf7f761;
 }
 .contactfull{
     margin-top: 30px;
@@ -532,7 +536,7 @@ footer{
     opacity: 1;
 }
 .footerbottom {
-    background-color: #202020;
+    background-color:#202020;
     padding: 20px;
     text-align: center;
 }
